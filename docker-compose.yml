@@ -1,0 +1,111 @@
+#
+#version: '3.8'
+#
+#services:
+#  zookeeper:
+#    image: bitnami/zookeeper:latest
+#    container_name: zookeeper
+#    environment:
+#      ALLOW_ANONYMOUS_LOGIN: "yes"
+#    ports:
+#      - "2181:2181"
+#
+#  kafka:
+#    image: bitnami/kafka:latest
+#    container_name: kafka
+#    environment:
+#      KAFKA_BROKER_ID: 1
+#      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+#      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092  # Listens on all interfaces
+#      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092  # Advertised to other services as 'kafka'
+#      ALLOW_PLAINTEXT_LISTENER: "yes"
+#    depends_on:
+#      - zookeeper
+#    ports:
+#      - "9092:9092"
+#
+#  redis:
+#    image: redis:alpine
+#    container_name: redis
+#    ports:
+#      - "6379:6379"
+#
+#  celery_worker:
+#    build:
+#      context: .
+#    container_name: celery_worker
+#    depends_on:
+#      - redis
+#      - kafka
+#    environment:
+#      - CELERY_BROKER_URL=redis://redis:6379/0
+#      - CELERY_RESULT_BACKEND=redis://redis:6379/0
+#    volumes:
+#      - .:/app
+#
+#  kafka_consumer:
+#    build:
+#      context: .
+#    container_name: kafka_consumer
+#    depends_on:
+#      - kafka
+#      - celery_worker
+#    command: ["python", "-m", "worker.kafka_consumer"]  # Run using -m for module-style import
+#    volumes:
+#      - .:/app
+#    environment:
+#      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092  # Ensure consumer can connect to Kafka
+
+version: '3.8'
+
+services:
+  zookeeper:
+    image: bitnami/zookeeper:latest
+    container_name: zookeeper
+    environment:
+      ALLOW_ANONYMOUS_LOGIN: "yes"
+    ports:
+      - "2181:2181"
+
+  kafka:
+    image: bitnami/kafka:latest
+    container_name: kafka
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      ALLOW_PLAINTEXT_LISTENER: "yes"
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"
+
+  redis:
+    image: redis:alpine
+    container_name: redis
+    ports:
+      - "6379:6379"
+
+  celery_worker:
+    build:
+      context: .
+    container_name: celery_worker
+    depends_on:
+      - redis
+    environment:
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - CELERY_RESULT_BACKEND=redis://redis:6379/0
+    volumes:
+      - .:/app
+
+  kafka_consumer:
+    build:
+      context: .
+    container_name: kafka_consumer
+    depends_on:
+      - kafka
+      - celery_worker
+    command: ["./wait-for-it.sh", "kafka:9092", "--", "python", "-m", "worker.kafka_consumer"]
+    volumes:
+      - .:/app

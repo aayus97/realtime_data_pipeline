@@ -1,70 +1,13 @@
-2024-11-25 11:56:05.072607: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_1.csv quarantined - Invalid data in numeric field: co
-2024-11-25 11:56:05.072899: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_1.csv error - Invalid data in numeric field: co
-2024-11-25 11:56:19.825986: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_2.csv quarantined - Invalid timestamps detected
-2024-11-25 11:56:19.826492: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_2.csv error - Invalid timestamps detected
-2024-11-25 11:56:32.773052: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_3.csv quarantined - Invalid timestamps detected
-2024-11-25 11:56:32.773175: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_3.csv error - Invalid timestamps detected
-2024-11-25 11:56:46.044461: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_5.csv quarantined - Invalid timestamps detected
-2024-11-25 11:56:46.044579: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_5.csv error - Invalid timestamps detected
-2024-11-25 11:57:40.003737: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_9.csv quarantined - Invalid timestamps detected
-2024-11-25 11:57:40.004081: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_9.csv error - Invalid timestamps detected
-2024-11-25 11:57:50.203783: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_10.csv quarantined - Invalid timestamps detected
-2024-11-25 11:57:50.203933: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_10.csv error - Invalid timestamps detected
-2024-11-25 11:58:22.035241: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_14.csv quarantined - Invalid timestamps detected
-2024-11-25 11:58:22.035508: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_14.csv error - Invalid timestamps detected
-2024-11-25 11:58:29.014837: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_15.csv quarantined - Invalid timestamps detected
-2024-11-25 11:58:29.014951: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_15.csv error - Invalid timestamps detected
-2024-11-25 11:58:36.237961: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_16.csv quarantined - Invalid timestamps detected
-2024-11-25 11:58:36.238112: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_16.csv error - Invalid timestamps detected
-2024-11-25 11:58:41.783475: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_17.csv quarantined - Invalid timestamps detected
-2024-11-25 11:58:41.783594: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_17.csv error - Invalid timestamps detected
-2024-11-25 11:58:56.151163: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_19.csv quarantined - Invalid timestamps detected
-2024-11-25 11:58:56.151381: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_19.csv error - Invalid timestamps detected
-2024-11-25 11:59:04.202923: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_40.csv quarantined - Invalid timestamps detected
-2024-11-25 11:59:04.203030: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_40.csv error - Invalid timestamps detected
-2024-11-25 11:59:10.207560: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_41.csv quarantined - Invalid timestamps detected
-2024-11-25 11:59:10.207822: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_41.csv error - Invalid timestamps detected
-2024-11-25 11:59:43.091267: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_37.csv quarantined - Invalid timestamps detected
-2024-11-25 11:59:43.093701: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_37.csv error - Invalid timestamps detected
-2024-11-25 12:00:02.406465: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_31.csv quarantined - Invalid timestamps detected
-2024-11-25 12:00:02.406795: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_31.csv error - Invalid timestamps detected
-2024-11-25 12:00:08.644149: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_32.csv quarantined - Invalid timestamps detected
-2024-11-25 12:00:08.644275: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_32.csv error - Invalid timestamps detected
-2024-11-25 12:00:20.938243: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_29.csv quarantined - Invalid timestamps detected
-2024-11-25 12:00:20.938418: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_29.csv error - Invalid timestamps detected
-2024-11-25 12:00:27.232636: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_30.csv quarantined - Invalid timestamps detected
-2024-11-25 12:00:27.232763: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_30.csv error - Invalid timestamps detected
-2024-11-25 12:05:23.194935: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_41.csv quarantined - Invalid timestamps detected
-2024-11-25 12:05:23.195139: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_41.csv error - Invalid timestamps detected
-2024-11-25 12:05:57.140342: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_18.csv quarantined - Invalid timestamps detected
-2024-11-25 12:05:57.140645: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_18.csv error - Invalid timestamps detected
-2024-11-25 12:07:05.727790: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_16.csv quarantined - Invalid timestamps detected
-2024-11-25 12:07:05.728001: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_16.csv error - Invalid timestamps detected
-2024-11-25 12:07:34.592027: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_3.csv quarantined - Invalid timestamps detected
-2024-11-25 12:07:34.592459: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_3.csv error - Invalid timestamps detected
-2024-11-25 12:13:39.030644: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_2.csv error - Invalid timestamps in rows: [10000]
-2024-11-25 12:14:21.587644: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_40.csv error - Invalid timestamps in rows: [10000]
-2024-11-25 12:15:37.142580: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_29.csv error - Invalid timestamps in rows: [10000]
-2024-11-25 12:15:49.001947: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_15.csv error - Invalid timestamps in rows: [10000]
-2024-11-25 12:25:41.157015: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_6.csv error - Invalid timestamps in rows: [10000]
-2024-11-25 12:25:42.003671: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_6.csv error - name 'os' is not defined
-2024-11-25 12:26:10.417652: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_7.csv error - name 'os' is not defined
-2024-11-25 12:26:19.701647: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_8.csv error - Invalid timestamps in rows: [10000]
-2024-11-25 12:26:20.559509: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_8.csv error - name 'os' is not defined
-2024-11-25 12:27:23.141462: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_8.csv error - Invalid timestamps in rows: [10000]
-2024-11-25 12:27:23.987251: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_8.csv error - Query execution error: column "file_name" of relation "aggregated_metrics" does not exist
-LINE 2: ...metric, min_value, max_value, avg_value, std_dev, file_name)
-                                                             ^
-
-2024-11-25 12:28:40.929522: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_9.csv error - Invalid timestamps in rows: [10000]
-2024-11-25 12:28:56.833721: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_10.csv error - Invalid timestamps in rows: [10000]
-2024-11-25 13:15:56.115376: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_19.csv error - Invalid timestamps in rows: [10000]
-2024-11-25 13:16:16.560116: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_19.csv error - RetryError[<Future at 0x104775600 state=finished raised OperationalError>]
-2024-11-25 13:16:21.596707: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_19.csv error - Invalid timestamps in rows: [10000]
-2024-11-25 13:16:41.883079: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_19.csv error - RetryError[<Future at 0x104775e70 state=finished raised OperationalError>]
-2024-11-25 13:16:46.907845: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_19.csv error - Invalid timestamps in rows: [10000]
-2024-11-25 13:17:07.191060: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_19.csv error - RetryError[<Future at 0x104775510 state=finished raised OperationalError>]
-2024-11-25 13:17:07.191993: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_19.csv error - RetryError[<Future at 0x104776200 state=finished raised RetryError>]
-2024-11-25 13:18:37.617530: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_13 copy.csv error - RetryError[<Future at 0x10658dc60 state=finished raised OperationalError>]
-2024-11-25 13:19:02.965026: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_13 copy.csv error - RetryError[<Future at 0x10658d780 state=finished raised OperationalError>]
-2024-11-25 13:21:39.623876: /Users/pratistha99/PycharmProjects/pythonProject/de_sensor_pipeline/data/split_21.csv error - Invalid timestamps in rows: [10000]
+2024-11-27 22:27:23.632451: data/split_2.csv quarantined - Invalid timestamps in rows: [10000] (values: [NaT]); Invalid data in numeric field 'co' in rows: [10000]; Invalid data in numeric field 'humidity' in rows: [10000]; Invalid data in numeric field 'lpg' in rows: [10000]; Invalid data in numeric field 'smoke' in rows: [10000]; Invalid data in numeric field 'temp' in rows: [10000]
+2024-11-27 22:28:55.555953: data/split_3.csv quarantined - Invalid timestamps in rows: [10000] (values: [NaT]); Invalid data in numeric field 'co' in rows: [10000]; Invalid data in numeric field 'humidity' in rows: [10000]; Invalid data in numeric field 'lpg' in rows: [10000]; Invalid data in numeric field 'smoke' in rows: [10000]; temp out of range in rows: [10000]
+2024-11-27 22:37:56.121252: data/split_6.csv quarantined - Invalid timestamps in rows: [10000] (values: [NaT]); Invalid data in numeric field 'co' in rows: [10000]; Invalid data in numeric field 'humidity' in rows: [10000]; Invalid data in numeric field 'lpg' in rows: [10000]; Invalid data in numeric field 'smoke' in rows: [10000]; Invalid data in numeric field 'temp' in rows: [10000]
+2024-11-27 23:15:50.562723: data/split_13.csv quarantined - Invalid timestamps in rows: [10000] (values: [NaT]); Invalid data in numeric field 'co' in rows: [10000]; Invalid data in numeric field 'humidity' in rows: [10000]; Invalid data in numeric field 'lpg' in rows: [10000]; Invalid data in numeric field 'smoke' in rows: [10000]; Invalid data in numeric field 'temp' in rows: [10000]
+2024-11-27 23:16:10.563991: data/split_14.csv quarantined - Invalid timestamps in rows: [10000] (values: [NaT]); Invalid data in numeric field 'co' in rows: [10000]; Invalid data in numeric field 'humidity' in rows: [10000]; Invalid data in numeric field 'lpg' in rows: [10000]; Invalid data in numeric field 'smoke' in rows: [10000]; Invalid data in numeric field 'temp' in rows: [10000]
+2024-11-27 23:16:25.578850: data/split_15.csv quarantined - Invalid timestamps in rows: [10000] (values: [NaT]); Invalid data in numeric field 'co' in rows: [10000]; Invalid data in numeric field 'humidity' in rows: [10000]; Invalid data in numeric field 'lpg' in rows: [10000]; Invalid data in numeric field 'smoke' in rows: [10000]; Invalid data in numeric field 'temp' in rows: [10000]
+2024-11-27 23:16:40.585841: data/split_16.csv quarantined - Invalid timestamps in rows: [10000] (values: [NaT]); Invalid data in numeric field 'co' in rows: [10000]; Invalid data in numeric field 'humidity' in rows: [10000]; Invalid data in numeric field 'lpg' in rows: [10000]; Invalid data in numeric field 'smoke' in rows: [10000]; Invalid data in numeric field 'temp' in rows: [10000]
+2024-11-27 23:16:50.579854: data/split_17.csv quarantined - Invalid timestamps in rows: [10000] (values: [NaT]); Invalid data in numeric field 'co' in rows: [10000]; Invalid data in numeric field 'humidity' in rows: [10000]; Invalid data in numeric field 'lpg' in rows: [10000]; Invalid data in numeric field 'smoke' in rows: [10000]; Invalid data in numeric field 'temp' in rows: [10000]
+2024-11-27 23:17:05.621634: data/split_18.csv quarantined - Invalid timestamps in rows: [10000] (values: [NaT]); Invalid data in numeric field 'co' in rows: [10000]; Invalid data in numeric field 'humidity' in rows: [10000]; Invalid data in numeric field 'lpg' in rows: [10000]; Invalid data in numeric field 'smoke' in rows: [10000]; Invalid data in numeric field 'temp' in rows: [10000]
+2024-11-27 23:17:20.604279: data/split_19.csv quarantined - Invalid timestamps in rows: [10000] (values: [NaT]); Invalid data in numeric field 'co' in rows: [10000]; Invalid data in numeric field 'humidity' in rows: [10000]; Invalid data in numeric field 'lpg' in rows: [10000]; Invalid data in numeric field 'smoke' in rows: [10000]; temp out of range in rows: [10000]
+2024-11-27 23:17:30.755534: data/split_20.csv quarantined - Invalid timestamps in rows: [10000] (values: [NaT]); Invalid data in numeric field 'co' in rows: [10000]; Invalid data in numeric field 'humidity' in rows: [10000]; Invalid data in numeric field 'lpg' in rows: [10000]; Invalid data in numeric field 'smoke' in rows: [10000]; Invalid data in numeric field 'temp' in rows: [10000]
+2024-11-27 23:17:40.636279: data/split_21.csv quarantined - Invalid timestamps in rows: [10000] (values: [NaT]); Invalid data in numeric field 'co' in rows: [10000]; Invalid data in numeric field 'humidity' in rows: [10000]; Invalid data in numeric field 'lpg' in rows: [10000]; Invalid data in numeric field 'smoke' in rows: [10000]; Invalid data in numeric field 'temp' in rows: [10000]
+2024-11-27 23:20:49.820204: data/split_24.csv quarantined - Invalid timestamps in rows: [10000] (values: [NaT]); Invalid data in numeric field 'co' in rows: [10000]; Invalid data in numeric field 'humidity' in rows: [10000]; Invalid data in numeric field 'lpg' in rows: [10000]; Invalid data in numeric field 'smoke' in rows: [10000]; temp out of range in rows: [10000]
