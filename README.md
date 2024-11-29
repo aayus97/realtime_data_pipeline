@@ -657,3 +657,62 @@ file-events-processing/
 ## **Conclusion**
 
 This project demonstrates a scalable, event-driven architecture for file-based workflows. It leverages Kafka for event streaming, Celery for distributed task processing, and Redis as a broker. With this setup, you can easily handle large volumes of file-based events in a distributed and asynchronous manner.
+
+
+## **Flow Diagram**
+
+Below is a **flow diagram** of the architecture to visually illustrate the data flow.
+
+```
+
+                  +--------------------+
+                  |   New CSV File     |
+                  |  (data/ folder)    |
+                  +--------------------+
+                           |
+                           v
+                +----------------------+
+                |  Kafka Producer      |
+                | (kafka_producer.py)  |
+                +----------------------+
+                           |
+                           | Publishes event to Kafka
+                           v
+                +----------------------+
+                |  Kafka Broker        |
+                |  (file_events topic) |
+                +----------------------+
+                           |
+                           | Consumes event
+                           v
+                +----------------------+
+                |  Kafka Consumer      |
+                | (kafka_consumer.py)  |
+                +----------------------+
+                           |
+             Validates file path
+                           |
+             +-------------------------+
+             |         Redis           |
+             | (Celery Task Queue)     |
+             +-------------------------+
+                           |
+                           v
+        +----------------------+   Quarantine invalid files
+        |   Celery Worker      |------------------------+
+        | (tasks.py)           |                        |
+        +----------------------+                        |
+     Validate file, clean data                          |
+     Insert into PostgreSQL                             |
+     Compute Aggregated Metrics                         |
+        |                                               |
+        v                                               v
++---------------------+                      +--------------------+
+|  PostgreSQL: Raw    |                      | Quarantine Folder  |
+|  raw_sensor_data    |                      +--------------------+
++---------------------+
+|  Aggregated Metrics |
+|  aggregated_metrics |
++---------------------+
+
+```
