@@ -1,11 +1,7 @@
 
-# from kafka import KafkaConsumer
-# from worker.tasks import process_file_task
-# from config.kafka_config import KAFKA_BROKER_URL, KAFKA_TOPIC
 import json
 from kafka import KafkaConsumer
 from worker.tasks import process_file_task
-
 from config.kafka_config import KAFKA_BROKER_URL, KAFKA_TOPIC
 
 def run_consumer():

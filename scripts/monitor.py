@@ -1,10 +1,8 @@
 import os
 import time
-import pandas as pd
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from scripts.validate import validate_and_transform_data
-from scripts.database import execute_query
 from scripts.aggregate import calculate_and_store_aggregates
 from scripts.utils import log_error
 from db.config import DB_CONFIG

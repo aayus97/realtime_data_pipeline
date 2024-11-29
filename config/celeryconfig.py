@@ -1,14 +1,14 @@
-# # # celeryconfig.py
+# celeryconfig.py
 
 from kombu import Exchange, Queue
 
 # Broker and backend configuration w/o docker
-# broker_url = "redis://localhost:6379/0"  # Redis as the broker
-# result_backend = "redis://localhost:6379/0"  # Redis for result storage
+broker_url = "redis://localhost:6379/0"  # Redis as the broker
+result_backend = "redis://localhost:6379/0"  # Redis for result storage
 
-# docker_specific config
-broker_url = "redis://redis:6379/0"
-result_backend = "redis://redis:6379/0"
+# # docker_specific config
+# broker_url = "redis://redis:6379/0"
+# result_backend = "redis://redis:6379/0"
 
 
 # Task serialization settings
@@ -25,24 +25,6 @@ task_queues = (
     Queue("default", Exchange("default"), routing_key="default"),  # Default queue
 )
 
-# Task routing settings
-# task_routes = {
-#     "worker.tasks.process_file_task": {"queue": "default"},  # Route `process_file_task` to the default queue
-# }
-
-# task_routes = {
-#     "tasks.process_file_task": {"queue": "default"},
-#     "tasks.kafka_consumer_task": {"queue": "default"},
-# }
-#
-#
-# # Task retry settings
-# task_annotations = {
-#     "worker.tasks.process_file_task": {
-#         "max_retries": 5,  # Maximum number of retries for this task
-#         "retry_delay": 10,  # Delay (in seconds) between retries
-#     },
-# }
 
 task_routes = {
     "worker.tasks.process_file_task": {"queue": "default"},
