@@ -2,7 +2,7 @@
 DB_CONFIG = {
     "dbname": "sensor_db",
     "user": "postgres",
-    "password": "Aayush123",
+    "password": "",
     "host": "localhost",
     "port": "5432",
 }
